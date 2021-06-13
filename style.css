@@ -275,6 +275,8 @@ h3.notion-heading {
 
 .notion-collection-card:hover {
   background: transparent !important;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 .notion-collection-card__cover.large, .notion-collection-card__cover.large>div, .notion-collection-card__cover.large img, .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>div, .notion-collection-card__cover.medium img {
   height: auto !important;
@@ -296,6 +298,10 @@ h3.notion-heading {
   object-fit: contain !important;
   object-position: initial !important;
   padding-bottom: 0  !important;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
 }
 .notion-collection-card__content {
   padding-bottom: 0 !important;
