@@ -6,7 +6,7 @@ html {
 
 /* --- Change default colors --- */
 :root {
-  --color-bg-default: #F6F9F9 !important;
+  --color-bg-default: #F7F8F9 !important;
   --color-text-default: #3B3E3E !important;
   --color-text-default-light: #606666 !important;
   --color-text-gray: #959BA9 !important;
