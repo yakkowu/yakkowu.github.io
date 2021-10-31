@@ -285,7 +285,7 @@ h3.notion-heading {
 }
 .notion-collection-card__cover {
   height: auto !important;
-  min-height: 545px !important;
+  min-height: none !important;
   border-bottom: none !important;
 }
 .notion-collection-card__cover img {
