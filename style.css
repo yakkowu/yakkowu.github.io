@@ -283,6 +283,11 @@ h3.notion-heading {
 .notion-collection-card__cover.large>div {
   position: relative !important;
 }
+.notion-collection-card__cover {
+  height: auto !important;
+  min-height: none !important;
+  border-bottom: none !important;
+}
 .notion-collection-card__cover img {
   position: relative !important;
   height: auto !important;
