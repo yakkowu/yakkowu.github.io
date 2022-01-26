@@ -342,7 +342,6 @@ h3.notion-heading {
 .notion-property__select {
   display: inline !important;
   white-space: normal !important;
-  overflow: auto !important;
 }
 
 /* Adjust pill styling */
